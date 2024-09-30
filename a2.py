@@ -47,9 +47,9 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
                 while source[sind] != pattern[pind]:
                     accum += source[sind] + ""
                     sind += 1
-                   # print(accum)
+                    # print(accum)
 
-                   if sind >= len(source):
+                    if sind >= len(source):
                        return None 
                 result.append(accum.rstrip())
 
