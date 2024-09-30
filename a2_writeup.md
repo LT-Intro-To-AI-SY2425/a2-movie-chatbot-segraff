@@ -13,8 +13,9 @@ This assignment is about learning and applying the while loop and iterating thro
 ## Reflection Questions
 1. What was difficult for you while completing the match function?
 
+Something that was difficult for me while completing the match function was interpreting the data and figuring out how to read the pind and sind.
 
 
 2. Explain how you could use the match function for extracting information from a movie database.
 
-
+I could use the match function to extract information by comparing the information from the source and the pattern. I could use the percent symbol to cut out uneccesary information. I am still kind of confused. 
