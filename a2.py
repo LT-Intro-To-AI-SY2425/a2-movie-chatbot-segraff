@@ -42,7 +42,21 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
                 sind = len(source)
                 return result
             else:
-                return None
+                pind += 1
+                accum = ''
+                while source[sind] != pattern[pind]:
+                    accum += source[sind] + ""
+                    sind += 1
+                   # print(accum)
+
+                   if sind >= len(source):
+                       return None 
+                result.append(accum.rstrip())
+
+             
+
+
+
             
                 
 
